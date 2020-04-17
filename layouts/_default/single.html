@@ -17,10 +17,9 @@
     </blockquote>
 </div>
 {{ end }}
-{{ if .Site.Params.utterancesComment }}
+{{ if not (.Params.DisableComment | default false) }}
+{{ if .Site.Params.UtterancesRepo }}
 {{ partial "comment-utterances.html" . }}
 {{ end }}
-{{ if .Site.Params.disqusComment }}
-{{ partial "comment-disqus.html" . }}
 {{ end }}
 {{ end }}

@@ -1,10 +1,9 @@
-<div id="post-loading">
-    <div id="container-loading-bar">
-        <div id="loading-bar"></div>
-    </div>
-    <p>{{ i18n "postCommentLoading" }}</p>
-</div>
 <div id="post-comment">
-    <script src="{{ .Site.Params.cdnUtterancesJS }}" repo="{{ .Site.Params.utterancesRepo }}" issue-term="{{ .Site.Params.utterancesIssueTerm }}" theme="{{ .Site.Params.utterancesTheme }}"
-            crossorigin="anonymous" async></script>
+    <script src="https://utteranc.es/client.js"
+      repo="{{ .Site.Params.UtterancesRepo }}"
+      issue-term="{{ .Site.Params.UtterancesIssueTerm | default "pathname" }}"
+      theme="{{ .Site.Params.UtterancesTheme | default "github-light" }}"
+      crossorigin="anonymous"
+    async>
+    </script>
 </div>
