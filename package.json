@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amzrk2/hugo-theme-fuji.git"
+    "url": "git+https://github.com/ress997/hugo-theme-fuji.git"
   },
   "keywords": [
     "hugo",
@@ -17,12 +17,12 @@
     "bootstrap",
     "primer"
   ],
-  "author": "DSRKafuU <mail@amzrk2.cc> (https://amzrk2.cc/)",
+  "author": "Ress",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/amzrk2/hugo-theme-fuji/issues"
+    "url": "https://github.com/ress997/hugo-theme-fuji/issues"
   },
-  "homepage": "https://github.com/amzrk2/hugo-theme-fuji#readme",
+  "homepage": "https://github.com/ress997/hugo-theme-fuji#readme",
   "devDependencies": {
     "@primer/css": "14.3.0"
   }
