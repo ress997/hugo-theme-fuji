@@ -3,8 +3,8 @@
 </span>
 <span class="post-meta-item post-meta-tags">
     {{ if .Params.tags }}
-    {{ range .Params.tags }}
-    <a href="{{ $.Site.BaseURL }}/tags/{{ . | urlize }}/">{{ . }}</a>
+    {{ range (.GetTerms "tags") }}
+    <a href="{{ .Permalink }}/">{{ .LinkTitle }}</a>
     {{ end }}
     {{ else }}
     <span>{{ i18n "postMetaNoTag" }}</span>

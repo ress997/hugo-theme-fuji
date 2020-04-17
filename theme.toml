@@ -8,7 +8,7 @@ description = "A minimal Hugo theme inspired by Murasaki, powered by GitHub Prim
 homepage = "https://github.com/amzrk2/hugo-theme-fuji/"
 tags = ["blog", "minimal", "primer"]
 features = ["responsive"]
-min_version = "0.62.1"
+min_version = "0.65.0"
 
 [author]
   name = "DSRKafuu(amzrk2)"
