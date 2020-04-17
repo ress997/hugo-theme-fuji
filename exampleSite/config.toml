@@ -31,12 +31,6 @@ paginate = 10
   # Google Analytics
   googleAnalyticsUA = "UA-000000000-0"
 
-  # Bangumi image chart id
-  # bgmImageChart = "000000"
-
-  # Show scroll to top button
-  scrollTop = true
-
   # License
   license = "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)"
   licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -52,14 +46,6 @@ paginate = 10
   # Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
   disqusComment = false
   disqusShortname = "[ENTER YOUR DISQUS SHORTNAME HERE]"
-
-  # Custom lazyload thumbnail
-  cdnLazyloadSRC = "https://cdn.jsdelivr.net/gh/amzrk2/poal-jsdelivr/lazyload/dsr_loading.svg"
-  # Custom css & js CDN
-  # cdnIntersectionObserverJS = "https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.min.js" # Optional
-  cdnVanillaLazyloadJS = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"
-  cdnJQueryJS = "https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"
-  cdnProgessJS = "https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js"
 
 [markup]
   [markup.highlight]

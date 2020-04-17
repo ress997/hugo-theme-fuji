@@ -29,9 +29,3 @@
         {{ end }}
     </ul>
 </div>
-{{ with .Site.Params.bgmImageChart }}
-<div id="widget-bgm">
-    <h5>{{ i18n "sidebarBangumiChart" }}</h5>
-    <img class="lazy" src="{{ $.Site.Params.cdnLazyloadSRC }}" data-src="https://bgm.tv/chart/img/{{ . }}" />
-</div>
-{{ end }}
