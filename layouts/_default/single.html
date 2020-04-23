@@ -18,8 +18,6 @@
 </div>
 {{ end }}
 {{ if not (.Params.DisableComment | default false) }}
-{{ if .Site.Params.UtterancesRepo }}
 {{ partial "comment-utterances.html" . }}
-{{ end }}
 {{ end }}
 {{ end }}
