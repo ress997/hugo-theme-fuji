@@ -10,9 +10,6 @@
 [sidebarLinks]
     other = "链接"
 
-[sidebarBangumiChart]
-    other = "番剧"
-
 [footerPoweredFront]
     other = "基于 "
 
@@ -30,12 +27,6 @@
 
 [postCopyrightEnd]
     other = " 进行许可。"
-
-[postCommentLoading]
-    other = "正在加载评论区"
-
-[postCommentLoadingFailed]
-    other = "评论区加载失败"
 
 [archivesTotalPages]
     other = "文章总数："

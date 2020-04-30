@@ -10,9 +10,6 @@
 [sidebarLinks]
     other = "Links"
 
-[sidebarBangumiChart]
-    other = "Bangumi"
-
 [footerPoweredFront]
     other = "Powered by "
 
@@ -30,12 +27,6 @@
 
 [postCopyrightEnd]
     other = "."
-
-[postCommentLoading]
-    other = "Loading comments..."
-
-[postCommentLoadingFailed]
-    other = "Comments failed to load."
 
 [archivesTotalPages]
     other = "Total posts: "
